@@ -1,0 +1,21 @@
+{
+  "name": "karadao-contracts",
+  "version": "1.0.0",
+  "description": "KaraDAO Smart Contracts - Phase 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network base-sepolia",
+    "verify:sepolia": "hardhat verify --network base-sepolia"
+  },
+  "keywords": ["dao", "governance", "ai", "base"],
+  "author": "KaraDAO",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.0"
+  }
+}
